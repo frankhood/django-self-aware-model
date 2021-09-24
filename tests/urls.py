@@ -6,5 +6,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^', include('django_self_aware_model.urls', namespace='django_self_aware_model')),
+    url(r'^', include('self_aware_model.urls', namespace='self_aware_model')),
 ]

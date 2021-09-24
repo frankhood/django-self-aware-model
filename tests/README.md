@@ -1,4 +1,4 @@
-## Example Project for django_self_aware_model
+## Example Project for self_aware_model
 
 This example is provided as a convenience feature to allow potential users to try the app straight from the app repo without having to create a django project.
 

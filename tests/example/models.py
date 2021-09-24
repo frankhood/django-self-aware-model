@@ -1,7 +1,7 @@
 from tests.example.querysets import ExampleAwareModelQuerySet
 from tests.example.managers import ExampleAwareModelManager
 from django.db import models
-from django_self_aware_model.models import SelfAwareModelMixin
+from self_aware_model.models import SelfAwareModelMixin
 
 
 class ExampleAwareModel(SelfAwareModelMixin, models.Model):

@@ -10,10 +10,10 @@ Tests for `django-self-aware-model` models module.
 
 from django.test import TestCase
 
-from django_self_aware_model import models
+from self_aware_model import models
 
 
-class TestDjango_self_aware_model(TestCase):
+class TestSelfAwareModel(TestCase):
 
     def setUp(self):
         pass
