@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 
 class DjangoSelfAwareModelConfig(AppConfig):
-    name = 'django_self_aware_model'
+    name = 'self_aware_model'

@@ -31,7 +31,7 @@ Add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'django_self_aware_model.apps.DjangoSelfAwareModelConfig',
+        'self_aware_model',
         ...
     )
 
@@ -39,12 +39,12 @@ Add Django Self Aware Model's URL patterns:
 
 .. code-block:: python
 
-    from django_self_aware_model import urls as django_self_aware_model_urls
+    from self_aware_model import urls as self_aware_model_urls
 
 
     urlpatterns = [
         ...
-        url(r'^', include(django_self_aware_model_urls)),
+        url(r'^', include(self_aware_model_urls)),
         ...
     ]
 

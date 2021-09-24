@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'django_self_aware_model',
+    'self_aware_model',
     
 
     # if your app has other dependencies that need to be added to the site
