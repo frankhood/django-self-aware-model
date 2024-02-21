@@ -1,7 +1,8 @@
-from tests.example.querysets import ExampleAwareModelQuerySet
-from tests.example.managers import ExampleAwareModelManager
 from django.db import models
+
 from self_aware_model.models import SelfAwareModelMixin
+from tests.example.managers import ExampleAwareModelManager
+from tests.example.querysets import ExampleAwareModelQuerySet
 
 
 class ExampleAwareModel(SelfAwareModelMixin, models.Model):
@@ -13,9 +14,8 @@ class ExampleAwareModel(SelfAwareModelMixin, models.Model):
     class Meta:
         """Example Aware Model Meta."""
 
-        verbose_name = "Example Aware Model" 
+        verbose_name = "Example Aware Model"
         verbose_name_plural = "Example Aware Models"
 
     def __str__(self) -> str:
         return self.title
-
